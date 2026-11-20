@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.grupo {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.terminos input {
+    width: auto;
+}
+
+small {
+    color: red;
+}
+
+input.error, select.error {
+    border: 2px solid red;
+}
+
+input.exito, select.exito {
+    border: 2px solid green;
+}
+
+@media (max-width: 600px) {
+    .contenedor {
+        margin: 10px auto;
+    }
+}
